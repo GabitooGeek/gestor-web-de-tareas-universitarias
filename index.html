@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas Universitario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <main class="task-container">
+        <header>
+            <h1>Mis Tareas de la Uni</h1>
+            <p id="current-date"></p>
+        </header>
+
+        <form id="task-form">
+            <div class="input-group">
+                <input type="text" id="task-input" placeholder="Añade una nueva tarea..." required>
+                <input type="text" id="subject-input" placeholder="Materia (ej. Cálculo)">
+                <input type="datetime-local" id="deadline-input" title="Fecha y hora límite">
+            </div>
+            <button type="submit">
+                <i class="fas fa-plus"></i> Añadir
+            </button>
+        </form>
+
+        <section class="task-list-section">
+            <h2>Pendientes</h2>
+            <ul id="task-list">
+                <!-- Las tareas se añadirán aquí dinámicamente -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
