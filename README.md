@@ -1,3 +1,5 @@
+# Gabriel Tellez
+
 # Gestor Web de Tareas Universitarias
 
 Este es un sencillo gestor de tareas web, diseñado para ayudar a los estudiantes a organizar sus deberes, proyectos y actividades universitarias de manera eficiente.
